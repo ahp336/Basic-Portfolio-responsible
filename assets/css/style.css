@@ -181,25 +181,26 @@ form{
  }
 
 nav ul {
-    margin-top: 3%;
+    margin-top: 5%;
  }
 
  .maincontent {
     min-width: 800px;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 10%;
+    
 
  }
 
  footer{
-    font-size: 30px;
-    height: 75px;
+    font-size: 30px
 
  }
 
  h1{
     font-size: 50px;
     padding-left: 10px;
+    padding-top: 10px;
 
  }
  #Pic{
@@ -209,9 +210,9 @@ nav ul {
  }
 
  p{
-    line-height: 240%;
+    line-height: 190%;
     clear: both;
-    font-size: 25px;
+    font-size: 30px;
     text-align: justify;
  }
 
@@ -253,93 +254,167 @@ nav ul {
 }
 
 /* Media Quere for ipad */
-@media only screen and (max-width : 910px){
+@media only screen and (max-width : 768px){
 
  nav{
     width : 100%;
-    height : 80px;
+    height : 70px;
    
     }
    
  header{
-        margin-left : 2px;
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
         font-size: 50px;
     }
    
  nav ul {
        margin-top: 3%;
-       padding-left: 30px;
+       margin-right: 15px;
+       
     }
    
  .maincontent {
-       min-width: 610px;
+       min-width: 544px;
        height: 100%;
        margin-top: 10%;
        margin-left: 12%;
-       padding-bottom: 60px;
    
     }
    
  footer{
-       font-size: 30px;
-       height: 60px;
+       font-size: 25px;
    
     }
    
  h1{
-       font-size: 45px;
-       padding-left: 10px;
+       font-size: 40px;
    
     }
  #Pic{
-       width: 510px;
+       width: 444px;
        padding : 20px 30px 30px 40px;
    
     }
    
  p{
-       line-height: 200%;
-       clear: both;
-       font-size: 28px;
-       text-align: left;
+       line-height: 150%;
+       font-size: 27px;
+       text-align: justify;
     }
    
     
  nav ul li{
        list-style: none;
        float: left;
-       padding: 5px 10px 5px 10px;
-       display: block;
+       padding: 5px 5px 5px 10px;
     }
    
  a{
-        font-size: 30px;
+        font-size: 27x;
     }
     
  a:hover{
-        font-size: 120%;
+        font-size: 150%;
         padding: 10px 5px 10px 5px;
     }
    
  input[type=text], textarea{
-        width: 590px;
+        width: 524px;
         
     }
    
  .text-block{
-        width: 63%; 
+        width: 63.7%; 
         font-size: 15px; 
         margin-top: -25%; 
     }
  .column{
-        width: 35%;
+        width: 40%;
     
  }
    
 }
 
-@media only screen and (max-width : 835px){
+
+/* Desgin adjustment for iphone 6/7/8 plus */
+@media only screen and (max-width : 414px){
+
+    nav{
+        width : 100%;
+        height : 75px;
+       
+        }
+       
+     header{
+            margin: -5px 0px 20px 90px;
+            font-size: 30px;
+            padding: 10px 10px 10px 10px;
+            background: #4aaaa5;
+            color : #ffffff;
+        }
+       
+     nav ul {
+           margin-top: 3%;
+           padding: 10px 0px 10px 0px;
+        }
+       
+     .maincontent {
+           min-width: 190px;
+           height: 100%;
+           margin-top: 7%;
+           margin-left: 15%;
+       
+        }
+       
+     footer{
+           font-size: 20px;
+       
+        }
+       
+     h1{
+           font-size: 28px;
+       
+        }
+     #Pic{
+           width: 95%;
+           margin-left: -33px;     
+       
+        }
+       
+     p{
+           line-height: 120%;
+           font-size: 18px;
+        }
+       
+        
+     nav ul li{
+           margin-top: -40px;
+        }
+       
+     a{
+            font-size: 25px;
+        }
+        
+     a:hover{
+            font-size: 150%;
+            padding: 10px 5px 10px 5px;
+        }
+       
+     input[type=text], textarea{
+            width: 97%;
+            
+        }
+       
+     .text-block{
+            width: 63.7%; 
+            font-size: 15px; 
+            margin-top: -25%; 
+        }
+     .column{
+            width: 40%;
+        
+     }
 
 
 }
